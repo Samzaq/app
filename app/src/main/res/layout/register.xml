@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/registerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#454b60"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your details to register"
+        android:textColor="#454b60"
+        android:textSize="16sp"
+        android:layout_below="@id/registerTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#454b60"
+        android:textSize="16sp"
+        android:layout_marginTop="291.8dp"
+        android:layout_marginStart="63dp"/>
+
+    <View
+        android:id="@+id/nameUnderline"
+        android:layout_width="317.5dp"
+        android:layout_height="1dp"
+        android:background="#454b60"
+        android:layout_below="@id/registerTitle"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="335.8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:textColor="#454b60"
+        android:textSize="16sp"
+        android:layout_marginTop="399.8dp"
+        android:layout_marginStart="63dp"/>
+
+    <View
+        android:id="@+id/emailUnderline"
+        android:layout_width="317.5dp"
+        android:layout_height="1dp"
+        android:background="#454b60"
+        android:layout_below="@id/nameUnderline"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="456.4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:textColor="#454b60"
+        android:textSize="16sp"
+        android:layout_marginTop="518.5dp"
+        android:layout_marginStart="63dp"/>
+
+    <View
+        android:id="@+id/mobileUnderline"
+        android:layout_width="317.5dp"
+        android:layout_height="1dp"
+        android:background="#454b60"
+        android:layout_below="@id/emailUnderline"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="574.4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#454b60"
+        android:textSize="16sp"
+        android:layout_marginTop="528.8dp"
+        android:layout_marginStart="63dp"/>
+
+    <View
+        android:id="@+id/passwordUnderline"
+        android:layout_width="317.5dp"
+        android:layout_height="1dp"
+        android:background="#454b60"
+        android:layout_below="@id/mobileUnderline"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="666.8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:textColor="#454b60"
+        android:textSize="16sp"
+        android:layout_marginTop="587.8dp"
+        android:layout_marginStart="63dp"/>
+
+    <CheckBox
+        android:id="@+id/termsCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I agree with the terms and conditions"
+        android:textColor="#454b60"
+        android:textSize="14sp"
+        android:layout_marginTop="726.8dp"
+        android:layout_marginStart="63dp"/>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="309dp"
+        android:layout_height="45dp"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:background="#454b60"
+        android:layout_below="@id/termsCheckBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Need help? Visit our "
+        android:textColor="#454b60"
+        android:textSize="16sp"
+        android:layout_below="@id/nextButton"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="99.8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="help center"
+        android:textColor="#454b60"
+        android:textSize="16sp"
+        android:layout_below="@id/nextButton"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@id/termsCheckBox"/>
+
+    <View
+        android:id="@+id/backgroundGradient"
+        android:layout_width="118dp"
+        android:layout_height="81dp"
+        android:background="@drawable/background_gradient"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="193dp"/>
+
+</RelativeLayout>
